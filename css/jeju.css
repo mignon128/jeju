@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body,h1,h2,h3,h4,h5,h6,ul,figure,p {margin: 0; padding: 0;}
+a {text-decoration: none;}
+address {font-style: normal;}
+small {font-size: 1em;}
+ul li {list-style: none;}
+.hidden {position: absolute; left: -99999px}
+/*웹폰트 - notosans kr*/
+body {font-family: 'Noto Sans KR', sans-serif;}
+#header {height: 500px; text-align: center;
+        background: url(./../images/bg.jpg) no-repeat center center / cover;}
+#header hgroup {padding-top: 120px;}
+#header hgroup h1 {font-size: 100px;}
+#header hgroup h1 {font-size: 45px; font-weight: normal;}
+#gnb {overflow: hidden; width: 1200px; /* margin: -50px auto 0; */
+      /* margin: 0 auto; position: relative; top: -50px; */
+      /* position: absolute; top: 450px; left: 50%; margin-left: -600px; */
+      position: absolute; top: 450px; left: calc(50% - 600px);}
+#gnb ul {}
+#gnb ul li {width: 25%; float: left; }
+#gnb ul li a {display: block; height: 60px; background: #4836d7; color: #fff;
+              line-height: 60px; text-align: center;}
+#gnb ul li a:hover {background: #bbf78c; color: #000;}
+
+#content {width: 1200px; margin: 100px auto 50px;}
+#content article h3 {margin: 20px 0;}
+#content article figure {margin-bottom: 20px 0;}
+
+#footer {padding: 50px 0; background: #004e80; color: #fff; text-align: center;}
+#footer p {margin: 20px 0;}
+#footer address {}
+  #footer small {}
